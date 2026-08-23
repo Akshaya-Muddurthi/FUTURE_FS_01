@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Professional developer portfolio showcasing skills, projects and contact information.">
+<meta name="keywords" content="developer portfolio, React, JavaScript, web development">
+<meta name="author" content="Akshaya">
+<title>Akshaya | Developer Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><a class="logo" href="#home">AK<span>.</span></a>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section id="home" class="hero">
+<div><p class="eyebrow">FULL STACK WEB DEVELOPER</p><h1>Building useful digital experiences with <span>clean code.</span></h1>
+<p class="intro">Computer Science student and aspiring software engineer focused on responsive web development, problem solving and continuous learning.</p>
+<div class="actions"><a class="btn primary" href="#projects">View Projects ↗</a><a class="btn" href="resume.pdf" download>Download Resume ↓</a></div></div>
+<div class="avatar"><div>AK</div><small>Developer</small></div>
+</section>
+<section id="about" class="section"><p class="eyebrow">01 / ABOUT</p><h2>Skills & profile.</h2>
+<div class="about"><div><p class="lead">I enjoy transforming ideas into responsive, accessible and practical web applications.</p><p class="muted">I work with HTML, CSS, JavaScript, React and SQL, while strengthening my programming and backend fundamentals.</p></div>
+<div class="skills"><article><b>Frontend</b><p>HTML5 · CSS3 · JavaScript · React</p></article><article><b>Programming</b><p>C · JavaScript · Python</p></article><article><b>Database</b><p>SQL · MySQL · DBMS</p></article><article><b>Tools</b><p>Git · GitHub · VS Code</p></article></div></div></section>
+<section id="projects" class="section"><p class="eyebrow">02 / PROJECTS</p><h2>Selected work.</h2><div class="grid">
+<article class="card"><small>01</small><h3>TaskFlow</h3><p>A responsive productivity interface for managing daily tasks.</p><div class="tags">React · JavaScript · CSS</div><a href="https://github.com/" target="_blank">GitHub ↗</a></article>
+<article class="card"><small>02</small><h3>Student Hub</h3><p>A student dashboard concept for courses, schedules and assignments.</p><div class="tags">HTML · CSS · JavaScript</div><a href="https://github.com/" target="_blank">GitHub ↗</a></article>
+<article class="card"><small>03</small><h3>Lead CRM</h3><p>A mini CRM for tracking client leads and follow-ups.</p><div class="tags">Node · Express · MongoDB</div><a href="../FUTURE_FS_02/client/index.html">Demo ↗</a></article>
+</div></section>
+<section id="contact" class="section contact"><div><p class="eyebrow">03 / CONTACT</p><h2>Let's work together.</h2><p class="muted">Have a project or opportunity? Send a message.</p><a href="mailto:akshaya@example.com">akshaya@example.com</a></div>
+<form onsubmit="sendMessage(event)"><input required placeholder="Name"><input required type="email" placeholder="Email"><textarea required rows="5" placeholder="Message"></textarea><button class="btn primary">Send Message ↗</button><p id="status"></p></form></section>
+</main><footer>© 2026 Akshaya · Built with HTML, CSS & JavaScript</footer>
+<script>function sendMessage(e){e.preventDefault();document.getElementById('status').textContent='Thanks! Your message has been captured for the demo.';e.target.reset()}</script>
+</body></html>
